@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="assets/css/Login.css">
+    <link rel="stylesheet" href="assets/css/Reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  
+    <title>Pocket Fitness Club</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" class="login">
+                <div class="logo-campos">
+                    <div class="logo">
+                        <img src="assets/images/pocket-fitness-club.png" alt="logo pocket-fitness-club">
+                    </div>
+                    <div class="campos-container">
+                        <div class="campos">
+                            <h1>Login</h1>
+                            <label for="email">E-mail</label>
+                            <input id="email" type="email" required>
+                            <label for="password">Senha</label>
+                            <input id="password" type="password" required>
+                            <button type="submit">Login</button>
+                            <a href="#" onclick="document.getElementById('forgot-password').style.display='block'">Esqueci minha senha?</a>
+                        </div>
+                        
+                    </div>
+                </div>
+        </form>
+        <div class="background-picture">
+            <img src="assets/images/imagem-tela-login.png" alt="homem-na-academia-pedalando">
+        </div>
+    </div>
+    
+    <div id="forgot-password" class="w3-modal">
+        <div class="w3-modal-content">
+            <span onclick="document.getElementById('forgot-password').style.display='none'">
+                <img src="assets/images/cancel-icon.png" alt="x vermelho">
+            </span>
+            <form action="">
+                <div class="w3-container">
+                    <h2>Esqueceu a senha de acesso?</h2>
+                    <label for="">Informe seu e-mail</label>
+                    <input type="email" required>
+                    <div class="modal-button">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
