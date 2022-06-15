@@ -1,0 +1,96 @@
+.header {
+    background-color: #001E3C;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 4.5px;
+}
+
+
+.hamburguer-menu {
+    margin-left: 50.5px;
+}
+
+.perfil {
+    display: flex;
+    margin-left: 940px;
+    
+}
+
+.avatar-icon {
+    margin-right: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.user-email {
+    margin-right: 14px;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-content > img{
+    position: absolute;
+    right: 80px;
+    top: 45px;
+    z-index: 2;
+    
+
+}
+
+.dropdown-container {
+    position: absolute;
+    right: 20px;
+    top: 55px;
+    background-color: white;
+    width: 162px;
+    height: 76px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+
+.settings {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    column-gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.logout {
+    margin: 5px;
+    margin-left: 20px;
+    display: flex;
+    column-gap: 7px;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content  {
+    display: block;
+}
+
+
+.arrow-container {
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    z-index: 2;
+}
