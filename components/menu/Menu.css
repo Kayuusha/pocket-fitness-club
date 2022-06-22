@@ -1,0 +1,28 @@
+.menu-container {
+    background-color: #0A1929;
+    width: 244px;
+    height: auto;
+    z-index: 1;
+}
+
+.menu-container  a {
+    text-decoration: none;
+    color: #D2DDDE;
+}
+
+.menu-container span {
+    display: flex;
+    padding-top: 35px;
+}
+
+.menu-container li {
+    margin-left: 24px;
+}
+
+.menu-container img {
+    margin-right: 24px;
+}
+
+.menu-container nav {
+    padding-bottom: 60px;
+}

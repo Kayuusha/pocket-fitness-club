@@ -1,5 +1,6 @@
 .header {
     background-color: #001E3C;
+    z-index: 2;
 }
 
 .container-header {
@@ -9,13 +10,18 @@
 }
 
 
+.logotype {
+    margin-left: 45px;
+}
+
 .hamburguer-menu {
-    margin-left: 50.5px;
+    margin-left: 56px;
+    cursor: pointer;
 }
 
 .perfil {
     display: flex;
-    margin-left: 940px;
+    margin-left: 894px;
     
 }
 
@@ -47,7 +53,7 @@
     position: absolute;
     right: 80px;
     top: 45px;
-    z-index: 2;
+    z-index: 3;
     
 
 }
@@ -92,5 +98,5 @@
     position: absolute;
     right: 20px;
     top: 25px;
-    z-index: 2;
+    z-index: 3;
 }
